@@ -1,18 +1,15 @@
-Привет! Этот бот совмещает с себе удобство *Telegram*, мощь *ChatGPT* и фан *Tinder*'а.
+Hi! This bot combines the convenience of Telegram, the power of *ChatGPT*, and the fun of *Tinder*.
 
-*Чатбот умеет*:
-1. Генерировать Tinder-профиль по описанию 😎
-2. Писать интересные и интригующие сообщения для знакомства. 😘
-3. Вести переписку от вашего имени 😇🔥
-4. Вы можете тренироваться в переписках с чат-ботом. 🥰
+*The chatbot can:*
+Generate a Tinder profile based on your description 😎
+Write interesting and intriguing messages for introductions. 😘
+Conduct conversations on your behalf 😇🔥
+You can practice chatting with the chatbot. 🥰
 
-
-*Полезные команды и ссылки:* 
-1. /start — главное меню бота
-2. /profile — генерация Tinder-профля 😎
-3. /opener — сообщение для знакомства 🥰
-4. /message — переписка от вашего имени 😈
-5. /date — переписка со звездами 🔥
-6. /gpt - задать вопрос чату GPT 🧠
-
-
+*Useful commands and links:*
+/start — main menu of the bot
+/profile — generate a Tinder profile 😎
+/opener — introduction message 🥰
+/message — chat on your behalf 😈
+/date — chat with celebrities 🔥
+/gpt — ask a question to the GPT chat 🧠

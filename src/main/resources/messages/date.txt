@@ -1,8 +1,9 @@
-Выберите девушку/парня, которую хотите пригласить на свидание.
+Choose the girl/guy you want to invite on a date.
 
-*Список доступных профилей:*
-1. Ариана Гранде 🔥  (сложность 5/10)
-4. Марго Робби 🔥🔥  (сложность 7/10)
-3. Зендея     🔥🔥🔥 (сложность 10/10)
-4. Райан Гослинг 😎 (сложность 7/10)
-5. Том Харди   😎😎 (сложность 10/10)
+List of available profiles:
+
+Ariana Grande 🔥 (difficulty 5/10)
+Margot Robbie 🔥🔥 (difficulty 7/10)
+Zendaya 🔥🔥🔥 (difficulty 10/10)
+Ryan Gosling 😎 (difficulty 7/10)
+Tom Hardy 😎😎 (difficulty 10/10)
