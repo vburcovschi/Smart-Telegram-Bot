@@ -10,9 +10,9 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 import java.util.ArrayList;
 
 public class TinderBoltApp extends MultiSessionTelegramBot {
-    public static final String TELEGRAM_BOT_NAME = "javarushtinder_bot"; //TODO: add the bot's name in quotes
-    public static final String TELEGRAM_BOT_TOKEN = "7052624324:AAHGZXE1HnKBjzsT39ooEyHkII8fbLK1s84"; //TODO: add the bot token in quotes
-    public static final String OPEN_AI_TOKEN = "sk-proj-BuYRH3kZaiA72RRo7CpWT3BlbkFJ97IWafSLtkvofOCodCsM"; //TODO: add the ChatGPT token in quotes
+    public static String TELEGRAM_BOT_NAME;
+    public static String TELEGRAM_BOT_TOKEN;
+    public static String OPEN_AI_TOKEN;
 
     private ChatGPTService chatGPT = new ChatGPTService(OPEN_AI_TOKEN);
 
@@ -198,6 +198,11 @@ public class TinderBoltApp extends MultiSessionTelegramBot {
     }
 
     public static void main(String[] args) throws TelegramApiException {
+        Util util = new Util();
+        util.loadTokens();
+        TELEGRAM_BOT_TOKEN = util.getTelegramBotToken();
+        TELEGRAM_BOT_NAME = util.getTelegramBotName();
+        OPEN_AI_TOKEN = util.getOpenAIToken();
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
         telegramBotsApi.registerBot(new TinderBoltApp());
     }
